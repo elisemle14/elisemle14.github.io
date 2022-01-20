@@ -1,7 +1,7 @@
 /* CSS DOCUMENT */
 
 h1 {
-    color: rgb(144, 238, 144);
+    color: rgb(254,132,132);
     font-size: 3em;
     background-color: rgb(255, 192, 203);
     padding: 2em 2em 2em 2em;
@@ -9,7 +9,11 @@ h1 {
 }
 
 h2 {
-    color: rgb(144, 238, 144);
+    color: rgb(255, 192, 203);
     font-size: 2em;
     font-family: serif;
+}
+
+h3 {
+    color: rgb(254,77,77);
 }
