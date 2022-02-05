@@ -29,7 +29,7 @@ h1 {
 	font-family: Sutro, serif;
 	font-weight: 700;
 	font-style: normal;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
 	font-family: Sutro, serif;
 	font-weight: 300;
 	font-style: normal;
-	margin-bottom: 1em;
+	margin-bottom: 0.5em;
 }
 
 
@@ -85,3 +85,49 @@ p {
 	font-style: normal;
 }
 
+@media only screen and (min-width: 60em) {  
+
+
+	div.container {  
+		max-width: 60em;  
+		margin: auto;  
+	}  
+	
+	
+	header {  
+		padding-top: 4em;  
+	}  
+	
+	
+	figure {  
+		display: grid;  
+		grid-template-columns: 3.7fr 1fr;  
+		column-gap: 1.3em;  
+	}  
+	
+	
+	main {  
+		display: grid;  
+		grid-template-columns: 2fr 2fr;  
+		column-gap: 1em;  
+		padding: 2em;  
+	}  
+	
+	
+	figcaption {  
+		padding-top: 1.5em;  
+	}  
+	
+	
+	h3 {  
+		border-top: 0em;  
+		padding-top: 0em;  
+	}
+	
+	
+	}
+	
+
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
