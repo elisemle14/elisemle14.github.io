@@ -1,0 +1,73 @@
+/*CSS DOCUMENT*/
+
+body {
+	background-color: rgb(250,250,250);
+}
+
+div.container {
+	background-color: rgb(250,250,250);
+}
+
+header {
+	background-color: rgb(230,230,255);
+	padding: 2em 1em 1em 2em;
+}
+main {
+	padding: 1em 1em 1em 1em;
+}
+
+h1 {
+	color: rgb(201, 148, 227);
+	font-family: 'Georgia', Regular;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 1em;
+}
+
+h2 {
+	color: rgb(255,171,255);
+	font-family: Georgia, serif;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 1em;
+}
+
+
+h3 {
+	font-family: Georgia, serif;
+	font-weight: 300;
+	font-style: normal;
+	color: rgb(120,19,114);
+	margin: 1em 1em 1em 1em;
+	text-transform: uppercase; 
+	letter-spacing: 0.1em;
+}
+
+li {
+	margin: 1em 1em 1em 1em;
+}
+
+li {
+	font-family: poppins, sans-serif;
+	font-weight: 400; 
+	font-style: normal; 
+}
+
+ul, ol {
+	margin: 1em 1em 1em 1em;
+}
+
+p {
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    padding: 1em 1em 1em 2em;
+
+}
+
+address {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+	font-style: normal;
+    padding: 1em 1em 1em 2em;
+}
