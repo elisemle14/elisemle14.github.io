@@ -1,0 +1,89 @@
+/*CSS DOCUMENT*/
+
+div.container {
+	background-color: rgb(255,255,255);
+	max-width: 40em;
+}
+
+header {
+	background-color: rgb(255,255,255);
+	padding: 2em 1em 1em 2em;
+}
+
+body {
+	background-color: rgb(255,255,255);
+}
+
+nav {
+	background-color:rgb(230, 230, 255);
+	padding: 1em 1em 1em 1em;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li{
+	display: inline;
+	list-style-type: none;
+	font-family: Georgia, serif;
+	margin-right: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(255,255,255))
+}
+
+h1 {
+	color: rgb(230,230,255);
+	font-family: Georgia, serif;
+	font-size: 2em;
+	font-style: normal;
+	padding: 1em 1em 0em 1em;
+}
+
+h2 {
+	color: rgb(201, 148, 227);
+	font-size: 1.5em;
+	font-family: Georgia, serif;
+	font-style: normal;
+	padding: 1em 1em 0em 1em;
+}
+
+h3 {
+	font-family: Georgia, serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgb(120,19,114);
+	margin: 1em 1em 1em 1em;
+	text-transform: uppercase; 
+	letter-spacing: 0.1em;
+}
+
+li {
+	margin: 1em 1em 1em 1em;
+}
+
+li {
+	font-family: poppins, sans-serif;
+	font-weight: 400; 
+	font-style: normal; 
+}
+
+ul, ol {
+	margin: 1em 1em 1em 1em;
+}
+
+p {
+	font-family: Georgia, serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 1em 1em 1em 1em;
+}
+
+address {
+    font-family: Georgia, serif;
+    font-weight: 400;
+	font-style: normal;
+    padding: 1em 1em 1em 2em;
+	text-transform: uppercase;
+}
