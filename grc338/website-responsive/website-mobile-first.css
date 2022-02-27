@@ -2,7 +2,8 @@
 
 div.container {
 	background-color: rgb(255,255,255);
-	max-width: 40em;
+	max-width: 100%;
+	margin: auto;
 }
 
 header {
@@ -12,6 +13,10 @@ header {
 
 body {
 	background-color: rgb(255,255,255);
+}
+
+img {
+	width: 100%;
 }
 
 nav {
@@ -30,7 +35,7 @@ nav ul li{
 	margin-right: 2em;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: rgb(255,255,255))
+	color: rgb(255,255,255);
 }
 
 h1 {
@@ -86,4 +91,12 @@ address {
 	font-style: normal;
     padding: 1em 1em 1em 2em;
 	text-transform: uppercase;
+}
+
+@media screen and (min-width: 40em) {
+	
+	div.container {
+		display: grid;
+		grid-template-columns: 40% 60%;
+	}
 }
